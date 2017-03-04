@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="12dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/input_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hello World!" />
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="save"/>
+
+    <Button
+        android:id="@+id/see_button"
+        android:layout_marginTop="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="See Result"/>
+
+</android.support.v7.widget.LinearLayoutCompat>
